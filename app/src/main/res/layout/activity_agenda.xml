@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/labelNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombres" />
+
+    <EditText
+        android:id="@+id/nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/labelTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/botonGuardarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="guardarRegistro"
+        android:text="Guardar Contacto" />
+
+    <Button
+        android:id="@+id/botonLeerAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="leerRegistros"
+        android:text="Leer agenda" />
+</LinearLayout>
